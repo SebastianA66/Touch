@@ -29,8 +29,8 @@ public class VariableJoystickEditor : JoystickEditor
 
     protected override void DrawValues()
     {
-        base.DrawValues();
-        EditorGUILayout.PropertyField(moveThreshold, new GUIContent("Move Threshold", "The distance away from the center input has to be before ");
-        EditorGUILayout.PropertyField(joystickType, new GUIContent("Joystick Type", "The type of joystick that is currently being used  ");
+        // base.DrawValues();
+        // EditorGUILayout.PropertyField(moveThreshold, new GUIContent("Move Threshold", "The distance away from the center input has to be before ");
+        // EditorGUILayout.PropertyField(joystickType, new GUIContent("Joystick Type", "The type of joystick that is currently being used  ");
     }
 }
